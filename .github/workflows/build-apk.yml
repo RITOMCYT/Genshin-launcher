@@ -1,0 +1,30 @@
+name: Build Genshin Launcher APK (armv7)
+
+on:
+  workflow_dispatch:     # Cho phép bạn chạy thủ công từ điện thoại
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v4
+
+      - name: Build Debug APK (armeabi-v7a)
+        run: ./gradlew assembleDebug
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Genshin-Launcher-armv7-debug
+          path: app/build/outputs/apk/armeabi-v7a/debug/*.apk

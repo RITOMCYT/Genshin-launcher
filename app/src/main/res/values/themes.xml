@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Theme.GenshinLauncher" parent="android:Theme.Material.Light.NoDisplay">
+    <style name="Theme.GenshinLauncher" parent="Theme.MaterialComponents.Light.NoDisplay">
         <!-- We use Compose for full control, so minimal native theme -->
     </style>
 </resources>

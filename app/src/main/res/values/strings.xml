@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Genshin Impact Launcher</string>
+    <string name="welcome_traveler">Welcome back, Traveler</string>
+    <string name="teyvat">Teyvat</string>
+</resources>

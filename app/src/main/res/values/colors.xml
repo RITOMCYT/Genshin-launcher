@@ -1,1 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Genshin Impact inspired dark elegant theme -->
+    <color name="background_deep">#0D1B2A</color>
+    <color name="card_background">#1B2A4A</color>
+    <color name="gold">#D4AF37</color>
+    <color name="gold_light">#F0D77B</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B8C4D4</color>
 
+    <!-- Elemental colors -->
+    <color name="anemo">#7ED7C1</color>
+    <color name="pyro">#FF6B6B</color>
+    <color name="hydro">#4ECDC4</color>
+    <color name="electro">#9D4EDD</color>
+    <color name="dendro">#7CB342</color>
+    <color name="cryo">#00CED1</color>
+    <color name="geo">#D4A017</color>
+</resources>

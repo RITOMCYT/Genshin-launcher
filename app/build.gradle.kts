@@ -50,10 +50,10 @@ android {
     // Configure for armv7 (armeabi-v7a) as requested
     splits {
         abi {
-            enable = true
+            isEnable = true
             reset()
             include("armeabi-v7a")
-            universalApk = false
+            isUniversalApk = false
         }
     }
 
